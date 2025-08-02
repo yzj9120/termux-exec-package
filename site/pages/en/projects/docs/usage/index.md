@@ -53,7 +53,7 @@ The non-legacy [Termux app data directory path](https://github.com/termux/termux
 
 **Version:** [`>= 2.0.0`](https://github.com/termux/termux-exec-package/releases/tag/v2.0.0)
 
-**Default value:** `/data/user/0/com.termux` if Termux app is running under primary user `0`.
+**Default value:** `/data/user/0/com.mytermux` if Termux app is running under primary user `0`.
 
 **Assigned values:**
 
@@ -79,7 +79,7 @@ The legacy [Termux app data directory path](https://github.com/termux/termux-pac
 
 **Version:** [`>= 2.0.0`](https://github.com/termux/termux-exec-package/releases/tag/v2.0.0)
 
-**Default value:** `/data/data/com.termux` if Termux app is running under primary user `0`.
+**Default value:** `/data/data/com.mytermux` if Termux app is running under primary user `0`.
 
 **Assigned values:**
 
@@ -105,7 +105,7 @@ The [Termux prefix directory path](https://github.com/termux/termux-packages/wik
 
 **Version:** [`>= 2.0.0`](https://github.com/termux/termux-exec-package/releases/tag/v2.0.0)
 
-**Default value:** `/data/data/com.termux/files/usr`
+**Default value:** `/data/data/com.mytermux/files/usr`
 
 **Assigned values:**
 

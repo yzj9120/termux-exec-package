@@ -100,7 +100,7 @@ termux_exec__ld_preload_lib__setup__run_command() {
     # copied below.
     rm -f "$TERMUX__PREFIX/lib/libtermux-exec-ld-preload.so" || return $?
 
-    # Prevent `CANNOT LINK EXECUTABLE "cp": library "/data/data/com.termux/files/usr/lib/libtermux-exec-ld-preload.so" not found: needed by main executable`
+    # Prevent `CANNOT LINK EXECUTABLE "cp": library "/data/data/com.mytermux/files/usr/lib/libtermux-exec-ld-preload.so" not found: needed by main executable`
     unset LD_PRELOAD || return $?
 
     cp -a "$ld_preload_file" "$TERMUX__PREFIX/lib/libtermux-exec-ld-preload.so" || return $?

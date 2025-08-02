@@ -85,22 +85,22 @@ extern "C" {
  * path.
  *
  * ```
- * LD_DEBUG=3 /data/data/com.termux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files/print-args-binary arg1; echo $?
+ * LD_DEBUG=3 /data/data/com.mytermux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files/print-args-binary arg1; echo $?
  * 1
  *
  * # Logcat
  * linker W  [ android linker & debugger ]
- * linker D  DEBUG: library name "/data/data/com.termux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files/print-args-binary" too long
+ * linker D  DEBUG: library name "/data/data/com.mytermux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files/print-args-binary" too long
  * ```
  *
  * ```
- * (exec -a print-args-binary /data/data/com.termux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files/print-args-binary arg1); echo $?
+ * (exec -a print-args-binary /data/data/com.mytermux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files/print-args-binary arg1); echo $?
  * arg1
  * 0
  * ```
  *
  * ```
- * (cd /data/data/com.termux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files && ./print-args-binary arg1); echo $?
+ * (cd /data/data/com.mytermux/files/usr/libexec/installed-tests/termux-exec/lib/termux-exec_nos_c/tre/scripts/termux/api/termux_exec/service/ld_preload/direct/exec/files && ./print-args-binary arg1); echo $?
  * arg1
  * 0
  * ```
